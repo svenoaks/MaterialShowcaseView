@@ -4,8 +4,7 @@ package uk.co.deanwild.materialshowcaseview;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.app.Activity;
-import android.app.DialogFragment;
-import android.app.Fragment;
+
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.graphics.Canvas;
@@ -25,6 +24,9 @@ import android.view.ViewTreeObserver;
 import android.view.Window;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+
+import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.Fragment;
 
 import java.util.Arrays;
 
