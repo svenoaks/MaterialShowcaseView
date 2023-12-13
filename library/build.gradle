@@ -2,11 +2,11 @@ apply plugin: 'com.android.library'
 
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 34
 
     defaultConfig {
         namespace "uk.co.deanwild.materialshowcaseview"
-        minSdkVersion 12
+        minSdkVersion 25
         targetSdkVersion 31
     }
     buildTypes {
